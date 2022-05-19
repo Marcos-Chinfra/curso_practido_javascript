@@ -12,3 +12,13 @@ curso en platzi de javascripr
 - Tercer paso: Crear funciones.
 
 - Cuarto paso: Integrar JavaScript con HTML.
+
+## Taller No.2: porcentajes y descuentos
+
+- Primer paso: Definir las formulas.
+
+-Segundo paso: Implementar esas formulas en javascript.
+
+- Tercer paso: Crear funciones.
+
+- Cuarto paso: Integrar JavaScript con HTML.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Este es el reto de los descuentos.
+        </h1>
+    </header>
+    <section>
+        <form >
+            <label for="inputPrice">Ingresa el precio del producto.</label>
+            <input id="inputPrice" type="number">
+
+            <label for="inputDiscount">Ingresa el procentaje de tu su descuento.</label>
+            <input id="inputDiscount" type="number">
+
+            <label for="inputCupon">Tienes un cupon? Ingresa su porcentaje, sino pon 0.</label>
+            <input id="inputCupon" type="number">
+
+            <button type="button" onclick="botonDeHtml()">Descubre tu descuento</button>
+            <p id="Resultado"></p>
+        </form>
+    </section>
+    <script src="./retoDescuento.js"></script>
+</body>
+</html>

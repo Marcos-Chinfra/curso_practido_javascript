@@ -22,3 +22,13 @@ curso en platzi de javascripr
 - Tercer paso: Crear funciones.
 
 - Cuarto paso: Integrar JavaScript con HTML.
+
+## Taller No.3: promedrio, mediana y moda
+
+- Primer paso: Definir las formulas.
+
+-Segundo paso: Implementar esas formulas en javascript.
+
+- Tercer paso: Crear funciones.
+
+- Cuarto paso: Integrar JavaScript con HTML (ahora lo hare yo.).

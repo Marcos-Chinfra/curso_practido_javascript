@@ -60,5 +60,5 @@ function botonDeHtml()
     const precioConDescuento = precioFinal(numberA, numberB,numberC);
     console.log(precioConDescuento);
     const resultP = document.getElementById("Resultado");
-    resultP.innerText="El precio con descuento son: $ " + precioConDescuento 
+    resultP.innerText="El precio con descuento es: $ " + precioConDescuento 
 };

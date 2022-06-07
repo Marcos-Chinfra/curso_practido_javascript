@@ -1,0 +1,38 @@
+:root
+{
+    --second-color:#D6EAF8;
+    --main-color:#935116;
+    --font:#eaddca;
+    --button:#FCF3CF;
+    --anwser:#A3E4D7 ;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+    font-family: 'Oswald';
+}
+header
+{
+    background-color: #D6EAF8; 
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main
+{
+    background-color: var(--main-color) ;
+    height: 85vh;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--font) ;
+}

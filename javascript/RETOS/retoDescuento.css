@@ -19,7 +19,7 @@ html
 }
 header
 {
-    background-color: var(--second-color); 
+    background-color: #D6EAF8; 
     width: 100%;
     height: 15vh;
     display: flex;
@@ -30,49 +30,26 @@ header
 main
 {
     background-color: var(--main-color) ;
-    height: 85vh;
+    height: 75vh;
     width: 100%;
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--font) ;
     display: grid;
-    place-content: center;
-    grid-auto-columns: auto;
-    grid-template-rows: minmax(145px, auto) minmax(185px, auto) minmax(145px, auto);
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(auto, 140px) minmax(auto, 110px) minmax(auto, 150px);;
 }
-
 form
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
-    margin: 5px;
-}
-.question
-{
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-}
-
-img
-{
-    display: block;
-    margin-left: calc(50% - 30px);
-    width: 35px;
-    height: 35px;
-}
-.button-question
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
-
 input
 {
-    width: 60%;
+    width: 35vw;
+    max-width: 180px;
+    text-align: center;
 }
 button
 {
@@ -80,18 +57,47 @@ button
     background-color: var(--button);
     border-radius: 10%;
     padding: 0.4vh 0;
-    width: 70%;
+    margin-bottom: 15vh;
+    width: 40vw;
+    max-width: 200px;
     height: auto;
 }
-.anwser
+section
 {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
-form p
+section p
 {
     margin-left: 15px;
     color:var(--anwser);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
+}
+footer
+{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#F9E79F;
+}
+footer p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    width: 35%;
+
+
+}
+footer a
+{
+    width: 30px;
+    max-width: 35px;
+    height: 32px;
+    background-image:url("../../assets/Icons/flecha-hacia-atras.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

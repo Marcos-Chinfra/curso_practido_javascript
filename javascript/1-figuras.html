@@ -16,49 +16,71 @@
         <p>Calculadora hecha en el taller del curso practico del javascript</p>
     </header>
     <main>
-    <form action="">
+<form action="">
+    <div class="question">
+        <img src="../assets/Img/cubo.png" alt="cuadrado">
         <label for="InputCuadrado">
             escribe cuanto mide cada lado de tu cuadrado:
         </label>
-        <input id="InputCuadrado" type="number"/>
+    </div>
+    <div class="button-question">
+        <input id="InputCuadrado" type="number"/>  
         <button type="button" onclick="calcularPerimetroCuadrado()">
             calcular el perimetro
         </button>
         <button type="button" onclick="calcularAreaCuadrado()">
             calular el area
-        </button>
+        </button> 
+    </div>
+    <div class="anwser">
         <p id="ResultSquare"></p>
-    </form>
+    </div>
+</form>
 
-    <form action="">
+<form action="">
+    <div class="question">
+        <img src="../assets/Img/triangular.png" alt="triangulo">
         <label for="InputTriangulo">
             escribe cuanto miden los lados de tu triangulo:
         </label>
+    </div>
+    <div class="button-question">
         <input id="InputTrianguloSide1" type="number"/>
         <input id="InputTrianguloSide2" type="number"/>
         <input id="InputTrianguloSide3" type="number"/>
         <button type="button" onclick="calcularPerimetroTriangulo()">
-            calcular el perimetro
+        calcular el perimetro
         </button>
         <button type="button" onclick="calcularAreaTriangulo()">
-            calular el area
+        calular el area
         </button>
+    </div>
+    <div class="anwser">
         <p id="ResultTriangle"></p>
-    </form>
+    </div>
+</form>
 
-    <form action="">
+<form action="">
+    <div class="question">
+        <img src="../assets/Img/circulo.png" alt="circulo">
         <label for="InputCirculo">
             escribe cuanto mide el radio de tu cirulo:
         </label>
+    </div>
+    <div class="button-question">
         <input id="InputCirculo" type="number"/>
         <button type="button" onclick="calcularPerimetroCirculo()">
-            calcular el perimetro
+        calcular el perimetro
         </button>
         <button type="button" onclick="calcularAreaCirculo()">
-            calular el area
+        calular el area
         </button>
-        <p id="ResultCircle"></p>
-    </form>
+    </div>
+<div class="anwser">
+    <p id="ResultCircle"></p>
+</div>
+</form>
+    
 </main>
     <script src="1.1-figuras.js"></script>
 </body>

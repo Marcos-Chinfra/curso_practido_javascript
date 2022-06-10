@@ -1,5 +1,5 @@
 //lista PAR
-var listaNumeros = [100, 200, 1500, 600, 3650, 1000, 766, 918];
+var listaNumeros = [100, 200, 1500, 600, 3650,  766, 918];
 
 function calcularMediana (elementos){
    
@@ -59,7 +59,7 @@ else
     const orden = list.sort(function(a,b){
         return a - b;
     });    
-    const total =  numberMid(list);
+    const total =  numberMid(orden);
     const number = list[total];
     return number;
 }

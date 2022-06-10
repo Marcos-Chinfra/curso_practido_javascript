@@ -22,6 +22,7 @@ header
     background-color: #D6EAF8; 
     width: 100%;
     height: 15vh;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,21 +36,9 @@ main
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--font) ;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(auto, 140px) minmax(auto, 110px) minmax(auto, 150px);;
-}
-form
-{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-input
-{
-    width: 35vw;
-    max-width: 180px;
-    text-align: center;
 }
 button
 {
@@ -57,23 +46,42 @@ button
     background-color: var(--button);
     border-radius: 10%;
     padding: 0.4vh 0;
-    margin-bottom: 15vh;
     width: 40vw;
     max-width: 200px;
     height: auto;
 }
+input
+{
+    text-align: center;
+}
+form p
+{
+ margin: 2.5rem;
+ background-color: transparent;
+ height: auto;
+ font-weight: lighter;
+ color: var(--anwser);
+ display: flex;
+ justify-content: center;
+}
 section
 {
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
-section p
+section p 
 {
-    margin-left: 15px;
-    color:var(--anwser);
-    font-size: 1.8rem;
-    font-weight: bold;
+    color: var(--main-color);
+    font-weight: 500;
+    width: 30vw;
+    max-width: 200px;
+    background-color:#F7DC6F ;
+    display: flex;
+    justify-content: center;
+    border-radius: 8%;
 }
 footer
 {

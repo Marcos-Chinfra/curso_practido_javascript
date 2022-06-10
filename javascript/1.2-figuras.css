@@ -30,7 +30,7 @@ header
 main
 {
     background-color: var(--main-color) ;
-    height: 85vh;
+    height: 75vh;
     width: 100%;
     font-size: 1.6rem;
     font-weight: 500;
@@ -94,4 +94,28 @@ form p
     color:var(--anwser);
     font-size: 1.5rem;
     font-weight: bold;
+}
+footer
+{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color:#F9E79F;
+}
+footer p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    width: 35%;
+}
+footer a
+{
+    width: 30px;
+    max-width: 35px;
+    height: 32px;
+    background-image:url("../../assets/Icons/flecha-hacia-atras.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

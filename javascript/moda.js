@@ -28,10 +28,12 @@ lista1.map(
     }
 );
 
-const lista1Array = Object.entries(lista1Count).sort(
+/*con object.entries convertimos el objeto a array.*/
+const lista1Array = Object.entries(lista1Count).sort( 
     function (elementoA, elementoB){
        return elementoA[1] - elementoB[1] 
     }
 );
 
 const moda = lista1Array[lista1Array.length - 1];
+console.log(moda)

@@ -1,17 +1,15 @@
-const lista1 = [
-    100,
-    200,
-    300,
-    500
-];
+//HEADERS
+const lista1 = [];
 
 let sumaLista1 = 0;
-for(let i = 0; i < lista1.length; i++ ){
+for(let i = 0; i < lista1.length; i++ )
+{
     sumaLista1 = sumaLista1 + lista1[i];
 }; 
 
 const promedioLista1 = sumaLista1 / lista1.length;
 
+ //FUNCION PRINCIPAL
 function calcularMedia(lista)
 {
    /* let sumaLista = 0;
@@ -36,3 +34,13 @@ const promedioLista = sumaLista / lista.length;
 
 return promedioLista
 };
+
+function listNumbers()
+{
+    const number = document.getElementById("inputNumber")
+    const value = Number(number.value)
+    const listaT = lista1.push(value)
+    const resultado = document.getElementById("listView");
+    resultado.innerText = lista1
+    
+}

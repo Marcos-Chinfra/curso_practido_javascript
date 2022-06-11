@@ -41,10 +41,10 @@ function viewMedia()
 {
     const mediaValue = calcularMedia(lista1);
     const mediaNumber = document.getElementById("resultMedia");
-    mediaNumber.innerText = mediaValue;
+    mediaNumber.innerText = Math.round(mediaValue);
 };
 
-//canculando MEDIA
+//canculando MEDINA
 
 //var listaNumeros = [100, 200, 1500, 600, 3650, 1000, 766, 918];
 
@@ -103,7 +103,7 @@ function thisIsTheEnd (list) {
 {
     const medinaValue = thisIsTheEnd(lista1);
     const medinaNumber = document.getElementById("resutlMediana");
-    medinaNumber.innerText = parseInt(medinaValue);
+    medinaNumber.innerText =  Math.round(medinaValue);
 };
 
 //calcular MODA

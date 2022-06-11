@@ -1,5 +1,6 @@
 :root
 {
+    --third-color:#F9E79F;
     --second-color:#D6EAF8;
     --main-color:#935116;
     --font:#eaddca;
@@ -15,8 +16,7 @@
 html
 {
     font-size: 62.5%;
-    font-family: 'Oswald';
-    
+    font-family: 'Oswald';  
 }
 header
 {
@@ -33,14 +33,44 @@ main
     background-color: var(--main-color);
     height: 75vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    display:grid;
+    grid-template-columns: 1fr;
+}   
 section
 {
-    width: 80%;
+    width: 100%;
     height: 100%;
+}
+aside
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /*background-color:#B7950B;*/
+    border: 5px solid var(--third-color);
+    border-radius: 3%;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+aside p
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--font);
+    font-weight: lighter;
+    font-size: 1.6rem;
+}
+aside a
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--font) ;
+    font-weight: 700;
+
 }
 section ul
 {

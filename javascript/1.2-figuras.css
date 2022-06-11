@@ -1,5 +1,6 @@
 :root
 {
+    --third-color:#F9E79F;
     --second-color:#D6EAF8;
     --main-color:#935116;
     --font:#eaddca;
@@ -101,7 +102,7 @@ footer
     display: flex;
     justify-content: space-around ;
     align-items: center;
-    background-color:#F9E79F;
+    background-color:var(--third-color);
 }
 footer p
 {

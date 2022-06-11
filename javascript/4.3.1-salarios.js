@@ -1,4 +1,6 @@
-const Guatemala = [];
+//LISTA PRUEBA
+
+/*const Guatemala = [];
 
 Guatemala.push({
     name: "Hans",
@@ -79,4 +81,21 @@ Guatemala.push({
 Guatemala.push({
     name: "Alejandra",
     salary: 3500
-});
+});*/
+
+//LISTA USUARIO
+const listUsers = [];
+
+function enterItem(){
+    const ItemName = document.getElementById("inputName");
+    const ItemNameValue = ItemName.value;
+    const ItemSalary = document.getElementById("inputSalary");
+    const ItemSalaryValue = ItemSalary.value;
+    listUsers.push({
+        name:ItemNameValue,
+        salary: Number(ItemSalaryValue)
+    })
+
+    const list = document.getElementById("viewList")
+    list.innerText = listUsers
+}

@@ -1,5 +1,6 @@
 :root
 {
+    --third-color:#F9E79F;
     --second-color:#D6EAF8;
     --main-color:#935116;
     --font:#eaddca;
@@ -54,15 +55,25 @@ input
 {
     text-align: center;
 }
+form
+{
+    padding: 10px;
+    display: grid;
+    height: 30%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 form p
 {
- margin: 2.5rem;
+ margin: 2rem;
  background-color: transparent;
  height: auto;
+ width: auto;
  font-weight: lighter;
  color: var(--anwser);
  display: flex;
  justify-content: center;
+ grid-row: 2 / 3;
 }
 section
 {
@@ -89,7 +100,7 @@ footer
     display: flex;
     justify-content: space-around ;
     align-items: center;
-    background-color:#F9E79F;
+    background-color:var(--third-color);
 }
 footer p
 {

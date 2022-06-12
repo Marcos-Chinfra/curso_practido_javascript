@@ -67,5 +67,5 @@ function firstPass()
     
 
     const resultP = document.getElementById("result");
-    resultP.innerText="The ideal amount to spend on whims is: " + finish + " and the ideal amount to save is: " + finishim
+    resultP.innerText="La cantidad ideal para que gastes es: " + finish + " y la cantidad ideal para que ahorres es: " + finishim
 };

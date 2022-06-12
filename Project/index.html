@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Save your Money</title>
 </head>
 <body>
     <header>
-        <h1>calculate your money on a monthly basis.</h1>
+        <h1>Calcula tu dinero mensualmente.</h1>
     </header>
     <main>
-        <form>
-        <label for="inputSalary">enter your monthly salary</label>
+    <form>
+        <label for="inputSalary">Ingresa cuanto ganas mensualmente.</label>
         <input id="inputSalary" type="number"/>
 
-        <label for="percentageSaving">Choose your savings percentage: </label>    
+        <label for="percentageSaving">Escoge un porcentaje de ahorro: </label>    
         <select name="Percentage" id="percentageSaving">
             <option value="20">20%</option>
             <option value="25">25%</option>
@@ -25,10 +29,23 @@
         </select>
 
         <button type="button" onclick="firstPass()">Enter</button>
-
-        <p id="result"></p>
     </form>
+    <section>
+        <p id="result"></p>
+    </section>
     </main>
+    <footer>
+        <p>
+            marcoschinchilla96@gmail.com <br>
+            www.linkedin.com/in/marcos-chinchilla-195050171 <br>
+            Github: Marcos-Chinfra <br>
+        </p>
+        <a href="../index.html"></a>
+        <p>
+            Escuela de javascript <br/>
+            Platzi.com
+        </p>
+    </footer>
     <script src="salary.js"></script>
 </body>
 </html>
